@@ -78,5 +78,21 @@ namespace PP26_CA2_PorownaniaSortowan
 
             return array;
         }
+
+        public int Find(int[] array, int element)
+        {
+            return Find(array, element, 0, array.Length - 1);
+        }
+        private int Find(int[] array, int element, int minRange, int MaxRange)
+        {
+            while (minRange < MaxRange)
+            {
+                int middle = (minRange + MaxRange) / 2;
+                if (array[middle] == element) return middle;
+                else if (array[middle] < element) minRange = middle + 1;
+                else MaxRange = middle - 1;
+            }
+            return -1;
+        }
     }
 }

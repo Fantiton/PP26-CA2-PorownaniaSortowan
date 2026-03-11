@@ -15,5 +15,16 @@ public class Program
 
         int[] quickSortedTable = sorter.QuickSort(inputTable);
         Console.WriteLine("Quick Sorted Table: " + string.Join(", ", quickSortedTable));
+
+        int elementToFind = 5;
+        int foundIndex = sorter.Find(quickSortedTable, elementToFind);
+        if(foundIndex != -1)
+        {
+            Console.WriteLine($"Szukany element: {elementToFind} znaleziony element: {quickSortedTable[foundIndex]} na indeksie: {foundIndex}");
+        }
+        else
+        {
+            Console.WriteLine($"Szukany element: {elementToFind} nie został znaleziony.");
+        }
     }
 }
