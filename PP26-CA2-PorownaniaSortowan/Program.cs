@@ -12,5 +12,8 @@ public class Program
 
         int[] selectionSorterTable = sorter.SelectionSort(inputTable);
         Console.WriteLine("Selection Sorted Table: " + string.Join(", ", selectionSorterTable));
+
+        int[] quickSortedTable = sorter.QuickSort(inputTable);
+        Console.WriteLine("Quick Sorted Table: " + string.Join(", ", quickSortedTable));
     }
 }
