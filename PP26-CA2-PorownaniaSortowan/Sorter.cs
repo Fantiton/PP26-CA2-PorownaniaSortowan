@@ -25,5 +25,23 @@ namespace PP26_CA2_PorownaniaSortowan
 
             return inputTable;
         }
+
+        public int[] SelectionSort(int[] inputTable)
+        {
+            for(int i = 0; i < inputTable.Length; i++)
+            {
+                int lowestIndex = i;
+                for (int j = i; j < inputTable.Length; j++)
+                {
+                    if (inputTable[j] < inputTable[lowestIndex]) lowestIndex = j;
+                }
+
+                int temp = inputTable[i];
+                inputTable[i] = inputTable[lowestIndex];
+                inputTable[lowestIndex] = temp;
+            }
+
+            return inputTable;
+        }
     }
 }

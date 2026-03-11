@@ -9,5 +9,8 @@ public class Program
 
         int[] bubbleSortedTable = sorter.BubbleSort(inputTable);
         Console.WriteLine("Bubble Sorted Table: " + string.Join(", ", bubbleSortedTable));
+
+        int[] selectionSorterTable = sorter.SelectionSort(inputTable);
+        Console.WriteLine("Selection Sorted Table: " + string.Join(", ", selectionSorterTable));
     }
 }
