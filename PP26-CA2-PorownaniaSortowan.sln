@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36811.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PP26-CA2-PorownaniaSortowan", "PP26-CA2-PorownaniaSortowan\PP26-CA2-PorownaniaSortowan.csproj", "{C3B3B75A-D8AF-4E0A-AF62-974CCFCB04D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjektTestowy", "ProjektTestowy\ProjektTestowy.csproj", "{E4DAB4E4-A0F2-48F9-8DB5-9146E565EDA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C3B3B75A-D8AF-4E0A-AF62-974CCFCB04D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3B3B75A-D8AF-4E0A-AF62-974CCFCB04D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3B3B75A-D8AF-4E0A-AF62-974CCFCB04D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DAB4E4-A0F2-48F9-8DB5-9146E565EDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DAB4E4-A0F2-48F9-8DB5-9146E565EDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DAB4E4-A0F2-48F9-8DB5-9146E565EDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DAB4E4-A0F2-48F9-8DB5-9146E565EDA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
